@@ -1,14 +1,17 @@
 {
-  "name": "passport-google-oauth",
+  "name": "passport-google-oauth-offline",
   "version": "0.1.4",
   "description": "Google (OAuth) authentication strategies for Passport.",
-  "author": { "name": "Jared Hanson", "email": "jaredhanson@gmail.com", "url": "http://www.jaredhanson.net/" },
+  "author": [
+      { "name": "Jared Hanson", "email": "jaredhanson@gmail.com", "url": "http://www.jaredhanson.net/" },
+      { "name": "Curtis Lacy", "email": "curtis.lacy@ldengine.com", "url": "http://www.linkedin.com/pub/curtis-lacy/9/2a1/40b" }
+    ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-google-oauth.git"
+    "url": "https://github.com/curtislacy/passport-google-oauth-offline.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-google-oauth/issues"
+    "url": "http://github.com/jaredhanson/passport-google-oauth-offline/issues"
   },
   "main": "./lib/passport-google-oauth",
   "dependencies": {
